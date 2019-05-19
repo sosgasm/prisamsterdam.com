@@ -1,0 +1,144 @@
+/*!
+ * s0s
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Sections */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    background-image:url('../img/tp.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.project-section {
+    height: 100%;
+    text-align: center;
+    background: #999;
+    padding-top: 150px;
+}
+
+.me-section {
+    height: 100%;
+    text-align: center;
+    background: #eee;
+    padding-top: 150px;
+}
+
+/*me and Mediaqueries*/
+@media only screen and (min-width : 320px){
+    .me-section {
+        padding-top: 70px;
+    }
+}
+@media only screen and (min-width : 480px){
+    .me-section {
+        padding-top: 70px;
+    }
+}
+@media only screen and (min-width : 768px){
+    .me-section {
+        padding-top: 70px;;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .me-section {
+        padding-top: 120px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .me-section {
+        padding-top: 120px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .me-section {
+        padding-top: 140px;
+    }
+}
+/*Einde me section*/
+
+.interests-section {
+    height: 100%;
+    text-align: center;
+    background: #eee;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:bottom;
+}
+/*interests-section and Mediaqueries*/
+@media only screen and (min-width : 320px){
+    .interests-section {
+        padding-top: 70px;
+    }
+}
+@media only screen and (min-width : 480px){
+    .interests-section {
+        padding-top: 70px;
+    }
+}
+@media only screen and (min-width : 768px){
+    .interests-section {
+        padding-top: 70px;;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .interests-section {
+        padding-top: 120px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .interests-section {
+        padding-top: 120px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .me-section {
+        padding-top: 140px;
+    }
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
