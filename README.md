@@ -1,9 +1,11 @@
-This repo is for my personal website with domain prisamsterdam.com
+# This repo is for my personal website with domain prisamsterdam.com
 
-##Built With
+```
+## Built With
 *Bootstrap
-
-##Tools used
+```
+```
+## Tools used
 *Netbeans
-
+```
 
