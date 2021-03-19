@@ -1,13 +1,13 @@
 
-## This repo is for my personal website with domain prisamsterdam.com
+## Css/Javascript/HTML for my personal website prisamsterdam.com
 
-### Built With
+### Framework
 ```
 *Bootstrap
 ```
 
 ### Tools used
 ```
-*Netbeans
+*Some IDE's
 ```
 
