@@ -260,6 +260,7 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+/* Custom font text navbar on left side (s0s) */
 @font-face {
   font-family: 'Glyphicons Halflings';
 
