@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftp.prisamsterdam.com
         username: sosxo@prisamsterdam.com
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.FTP }}
