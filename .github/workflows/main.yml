@@ -14,3 +14,6 @@ jobs:
         server: ftp.prisamsterdam.com
         username: sosxo@prisamsterdam.com
         password: ${{ secrets.FTP }}
+        exclude: |
+          **/.git*
+          **/.git*/**
